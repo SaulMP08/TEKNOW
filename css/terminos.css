@@ -13,6 +13,9 @@ header{
   justify-content: center;
   gap: 560px;
 }
+h1{
+  font-size: 50px;
+}
 .link a{
   text-decoration: none;
   display:inline-block;

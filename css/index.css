@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+
+header{
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+    background-color: #D4713A;
+}
+
+.arriba{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 58%;
+    background-color: #3d4f8a;
+}
+
+.chevwrap{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 58%;
+}
+
+.chevwrap svg{ width: 100%; height: 100%;}

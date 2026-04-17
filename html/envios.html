@@ -10,30 +10,45 @@
 <header> <a href="index.html"> Inicio </a></header>
 
 <body>
-    <div class="Container">
-        <h1 id="Titulo">Direccion de Envio</h1>
-        <form action="/procesar-datos" method="post">
-            <label for="Pais">Ubicacion(Pais):</label>
-            <input placeholder="Ingresa un pais de residencia..." type="text" id="Pais" name="Pais" required>
-        </form>
+    <div id="Container1">
+        <div>
+            <h1 id="Titulo">Direccion de Envio</h1>
+        </div>
+        <div class="Container">
+            <form action="/procesar-datos" method="post">
+                <label for="Pais">Ubicacion(Pais):</label>
+                <input placeholder="ej: Costa Rica" type="text" id="Pais" name="Pais" required>
+            </form>
+        </div>
+        <div class="container">
+            <form action="/procesar-datos" method="post">
+                <label for="Nombre">Nombre:</label>
+                <input placeholder="ej: Juan" type="text" id="Nombre" name="Nombre" required>
+                <br>
+                <label for="Apellido">Apellido:</label>
+                <input placeholder="ej: Guitierrez" type="text" id="Apellido" name="Apellido" required>
+                <br>
+                <label for="NumTel">Numero de telefono:</label>
+                <input placeholder="ej: +506 0000 0000" type="text" id="NumTel" name="NumTel" required>
+            </form>
+        </div>
+        <div class="container">
+            <form action="/procesar-datos" method="post">
+                <label for="Provincia">Provincia:</label>
+                <input placeholder="ej: Heredia" type="text" id="Provincia" name="Provincia" required>
+                <br>
+                <label for="Canton">Canton:</label>
+                <input placeholder="ej: Barva" type="text" id="Canton" name="Canton" required>
+                <br>
+                <label for="CodPos">Codigo Postal:</label>
+                <input placeholder="ej: 40201" type="text" id="CodPos" name="CodPos" required>
+                <br>
+                <label for="Distrito">Distrito:</label>
+                <input placeholder="ej: San Roque" type="text" id="Distrito" name="Distrito" required>
+            </form>
+        </div>
+        <input type="submit" value="Confirmar">
     </div>
-    <div>
-        <form action="/procesar-datos" method="post">
-            <label for="Nombre">Nombre:</label>
-            <input placeholder="Ingresa tu nombre..." type="text" id="Nombre" name="Nombre" required>
-
-            <br>
-
-            <label for="Apellido">Apellido:</label>
-            <input placeholder="Ingresa tu primer apellido..." type="text" id="Apellido" name="Apellido" required>
-
-            <br>
-            
-            <label for="NumTel">Numero de telefono:</label>
-            <input placeholder="Ingresa un numero de telefono..." type="text" id="NumTel" name="NumTel" required>
-        </form>
-    </div>
-    <input type="submit" value="Enviar">
 </body>
 <footer></footer>
 

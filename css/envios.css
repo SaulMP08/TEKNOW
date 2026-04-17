@@ -1,10 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header{
     height: 100px;
-    width: auto;
+    width: 1900PX;
     background-image: url("../imagenes/header_rojo.png");
     background-size: 1900px;
     background-repeat:no-repeat;
 }
 body{
+    padding: 0, 0, 0, 0 ;
+    background-color: rgb(106, 163, 238);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Container1{
     background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;   /* 👈 esto los pone uno debajo del otro */
+    align-items: center;      /* centra horizontalmente */
+    justify-content: center;  /* centra verticalmente */
+    height: 50vh;
+    width: 50vw;
+    margin: 0;
 }

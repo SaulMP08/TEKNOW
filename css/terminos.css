@@ -6,12 +6,13 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgb(197, 202, 221);
+  background-image: url(../imagenes/header_azul.png);
+  background-size: 80%;
   color: rgb(0, 0, 0);
   text-align: center;
   display: flex;
   justify-content: center;
-  gap: 560px;
+  gap: 400px;
 }
 h1{
   font-size: 50px;
@@ -39,7 +40,7 @@ body{
     width: 65vw;
     margin: 0 auto;
     height: 100%;
-    padding-top: 120px;
+    padding-top: 135px;
     background-color: rgba(198, 218, 255, 0.274);
     color: rgb(255, 255, 255);
     padding-bottom: 50px;

@@ -9,7 +9,20 @@ header{
   background-color: rgb(197, 202, 221);
   color: rgb(0, 0, 0);
   text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 560px;
 }
+.link a{
+  text-decoration: none;
+  display:inline-block;
+  margin:10px;
+  color: black;
+}
+.link a:hover{
+  transform:rotate(-15deg);
+}
+
 
 body{
  background-color: rgb(24, 14, 59);
@@ -34,6 +47,7 @@ p{
     padding-right: 75px;
 }
 footer{
+  padding-top: 2px;
   height: 50px;
   margin-top: -50px;
   height: 50px;

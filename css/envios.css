@@ -1,0 +1,10 @@
+header{
+    height: 100px;
+    width: auto;
+    background-image: url("../imagenes/header_rojo.png");
+    background-size: 1900px;
+    background-repeat:no-repeat;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}

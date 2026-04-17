@@ -4,25 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/envios.css">
     <title>Envios</title>
 </head>
 <header> <a href="index.html"> Inicio </a></header>
 
 <body>
-    <div id="Container">
+    <div class="Container">
         <h1 id="Titulo">Direccion de Envio</h1>
         <form action="/procesar-datos" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-
-            <label for="email">Correo:</label>
-            <input type="email" id="email" name="email" required>
-
-            <input type="submit" value="Enviar">
+            <label for="Pais">Ubicacion(Pais):</label>
+            <input placeholder="Ingresa un pais de residencia..." type="text" id="Pais" name="Pais" required>
         </form>
-
-
     </div>
+    <div>
+        <form action="/procesar-datos" method="post">
+            <label for="Nombre">Nombre:</label>
+            <input placeholder="Ingresa tu nombre..." type="text" id="Nombre" name="Nombre" required>
+
+            <br>
+
+            <label for="Apellido">Apellido:</label>
+            <input placeholder="Ingresa tu primer apellido..." type="text" id="Apellido" name="Apellido" required>
+
+            <br>
+            
+            <label for="NumTel">Numero de telefono:</label>
+            <input placeholder="Ingresa un numero de telefono..." type="text" id="NumTel" name="NumTel" required>
+        </form>
+    </div>
+    <input type="submit" value="Enviar">
 </body>
 <footer></footer>
 

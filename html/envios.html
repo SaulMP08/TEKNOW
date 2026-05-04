@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/envios.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <script src="/js/envios.js"></script>
     <title>Envios</title>
 </head>
 <header> <a href="index.html"> Inicio </a></header>
@@ -18,10 +22,6 @@
             <form action="/procesar-datos" method="post">
                 <label for="Pais">Ubicacion(Pais):</label>
                 <input placeholder="ej: Costa Rica" type="text" id="Pais" name="Pais" required>
-            </form>
-        </div>
-        <div class="container">
-            <form action="/procesar-datos" method="post">
                 <label for="Nombre">Nombre:</label>
                 <input placeholder="ej: Juan" type="text" id="Nombre" name="Nombre" required>
                 <br>
@@ -30,10 +30,6 @@
                 <br>
                 <label for="NumTel">Numero de telefono:</label>
                 <input placeholder="ej: +506 0000 0000" type="text" id="NumTel" name="NumTel" required>
-            </form>
-        </div>
-        <div class="container">
-            <form action="/procesar-datos" method="post">
                 <label for="Provincia">Provincia:</label>
                 <input placeholder="ej: Heredia" type="text" id="Provincia" name="Provincia" required>
                 <br>
@@ -45,10 +41,12 @@
                 <br>
                 <label for="Distrito">Distrito:</label>
                 <input placeholder="ej: San Roque" type="text" id="Distrito" name="Distrito" required>
+                <input type="submit" value="Confirmar">
+
             </form>
         </div>
-        <input type="submit" value="Confirmar">
     </div>
+    
 </body>
 <footer></footer>
 

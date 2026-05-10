@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
     boton.addEventListener("click", function (e) {
         e.preventDefault();
 
-        // Validar que todos los campos requeridos estén llenos
         const campos = document.querySelectorAll("input[required]");
         let todosLlenos = true;
 
